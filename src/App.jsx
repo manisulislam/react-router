@@ -20,6 +20,7 @@ function App() {
         <Route path="order_summary" element={<Order_summary></Order_summary>} />
         <Route path="*" element={<NoMatch></NoMatch>} />
         <Route path='products' element={<Products></Products>}>
+          <Route index element={<FeaturedProducts></FeaturedProducts>}/>
           <Route path='featured' element={<FeaturedProducts></FeaturedProducts>}/>
           <Route path='new' element={<NewProducts></NewProducts>}/>
         </Route>
