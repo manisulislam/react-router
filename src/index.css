@@ -1,0 +1,13 @@
+.primary_navbar{
+    background-color: rgb(231, 74, 179);
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+}
+
+.primary_navbar a{
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 20px;
+    color: rgb(7, 7, 7);
+}

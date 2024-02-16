@@ -9,9 +9,10 @@ const Navbar = () => {
     }
   }
   return (
-    <nav>
+    <nav className="primary_navbar">
         <NavLink style={NavbarStyles} to="/">Home</NavLink>
         <NavLink style={NavbarStyles} to="/about">About</NavLink>
+        <NavLink style={NavbarStyles} to="/products">Products</NavLink>
         {/* <Link to="/">Home</Link>
         <Link to="/about">About</Link> */}
     </nav>
